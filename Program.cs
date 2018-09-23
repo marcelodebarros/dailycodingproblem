@@ -10,8 +10,8 @@ namespace DailyCodingProblem
 	{
 		static void Main(string[] args)
 		{
-			DailyCodingProblem09222018 dcp09222018 = new DailyCodingProblem09222018();
-			Console.WriteLine(dcp09222018.Unival());
+			DailyCodingProblem09232018 dcp = new DailyCodingProblem09232018();
+			Console.WriteLine(dcp.SumNonAdjacent(new int[] {1, 2, 3, 4, 5}));
 		}
 	}
 }
