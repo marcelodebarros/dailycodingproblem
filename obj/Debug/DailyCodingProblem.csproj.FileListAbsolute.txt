@@ -1,0 +1,6 @@
+c:\users\marcelod\source\repos\DailyCodingProblem\DailyCodingProblem\bin\Debug\DailyCodingProblem.exe.config
+c:\users\marcelod\source\repos\DailyCodingProblem\DailyCodingProblem\bin\Debug\DailyCodingProblem.exe
+c:\users\marcelod\source\repos\DailyCodingProblem\DailyCodingProblem\bin\Debug\DailyCodingProblem.pdb
+c:\users\marcelod\source\repos\DailyCodingProblem\DailyCodingProblem\obj\Debug\DailyCodingProblem.csproj.CoreCompileInputs.cache
+c:\users\marcelod\source\repos\DailyCodingProblem\DailyCodingProblem\obj\Debug\DailyCodingProblem.exe
+c:\users\marcelod\source\repos\DailyCodingProblem\DailyCodingProblem\obj\Debug\DailyCodingProblem.pdb
