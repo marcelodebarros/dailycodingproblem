@@ -12,6 +12,9 @@ namespace DailyCodingProblem
 		{
 			DailyCodingProblem09232018 dcp = new DailyCodingProblem09232018();
 			Console.WriteLine(dcp.SumNonAdjacent(new int[] {1, 2, 3, 4, 5}));
+
+			Tree tree = dcp.BuildTree();
+			Console.WriteLine(dcp.DeepestNode(tree));
 		}
 	}
 }
