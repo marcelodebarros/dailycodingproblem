@@ -10,11 +10,9 @@ namespace DailyCodingProblem
 	{
 		static void Main(string[] args)
 		{
-			DailyCodingProblem09232018 dcp = new DailyCodingProblem09232018();
-			Console.WriteLine(dcp.SumNonAdjacent(new int[] {1, 2, 3, 4, 5}));
-
-			Tree tree = dcp.BuildTree();
-			Console.WriteLine(dcp.DeepestNode(tree));
+			DailyCodingProblem09252018 dcp = new DailyCodingProblem09252018();
+			dcp.CreateTrie(new string[] { "dog", "deer", "deal", "doggy", "derail", "abs" });
+			dcp.PrintMatches(args[0]);
 		}
 	}
 }
