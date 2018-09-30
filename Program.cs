@@ -23,8 +23,19 @@ namespace DailyCodingProblem
 			Console.WriteLine(dcp.StaircaseUniqueWays(N, steps));
 			*/
 
+			/*
 			DailyCodingProblem09272018 dcp = new DailyCodingProblem09272018();
 			Console.WriteLine(dcp.LongestSubstringDistinctK(args[0], Convert.ToInt32(args[1])));
+			*/
+
+			DailyCodingProblem09292018 dcp = new DailyCodingProblem09292018();
+			int r = 0;
+			for (; ; )
+			{
+				r = (r + 1) % 1000;
+				dcp.IncomingFeed(r.ToString());
+				Console.WriteLine(dcp.RandomElement);
+			}
 		}
 	}
 }
