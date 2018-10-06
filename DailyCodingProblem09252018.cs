@@ -39,7 +39,11 @@ namespace DailyCodingProblem
 
 		public void AddWord(string word)
 		{
-			if (String.IsNullOrEmpty(word)) return;
+			if (String.IsNullOrEmpty(word))
+			{
+				isLeaf = true;
+				return;
+			}
 			if (children == null) children = new Hashtable();
 			SimpleTrie child = null;
 			if (!children.ContainsKey(word[0]))

@@ -10,8 +10,8 @@ namespace DailyCodingProblem
 	{
 		static void Main(string[] args)
 		{
-			DailyCodingProblem10042018 dcp = new DailyCodingProblem10042018();
-			dcp.FindCommonNode();
+			DailyCodingProblem10062018 dcp = new DailyCodingProblem10062018();
+			dcp.PrintMinWords(args[0]);
 		}
 	}
 }
