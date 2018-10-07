@@ -41,7 +41,9 @@ namespace DailyCodingProblem
 								"how",
 								"any",
 								"anyhow",
-								"anywho"
+								"anywho",
+								"ever",
+								"however"
 							 };
 			trie = new SimpleTrie();
 			foreach (string word in words) trie.AddWord(word);
