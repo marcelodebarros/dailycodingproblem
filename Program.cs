@@ -10,8 +10,20 @@ namespace DailyCodingProblem
 	{
 		static void Main(string[] args)
 		{
-			DailyCodingProblem10072018 dcp = new DailyCodingProblem10072018(Int32.Parse(args[0]), Int32.Parse(args[1]));
-			dcp.Walk(Int32.Parse(args[2]), Int32.Parse(args[3]), Int32.Parse(args[4]), Int32.Parse(args[5]));
+			DailyCodingProblem10082018 dcp = new DailyCodingProblem10082018();
+			LockTree tree = dcp.BuildTree();
+			dcp.LockUnlock(22, true, tree);
+			dcp.LockUnlock(10, true, tree);
+			dcp.LockUnlock(10, false, tree);
+			dcp.LockUnlock(22, false, tree);
+			dcp.LockUnlock(10, true, tree);
+			dcp.LockUnlock(10, false, tree);
+			/*
+			DailyCodingProblem10092018 dcp = new DailyCodingProblem10092018();
+			string regex = args[0];
+			string input = args[1];
+			Console.WriteLine(dcp.RegEx(regex, input));
+			*/
 		}
 	}
 }
