@@ -10,6 +10,9 @@ namespace DailyCodingProblem
 	{
 		static void Main(string[] args)
 		{
+			DailyCodingProblem10112018 dcp = new DailyCodingProblem10112018();
+			Console.WriteLine(dcp.BracketsBalanced(args[0]));
+
 			/*
 			DailyCodingProblem10082018 dcp = new DailyCodingProblem10082018();
 			LockTree tree = dcp.BuildTree();
@@ -28,8 +31,10 @@ namespace DailyCodingProblem
 			Console.WriteLine(dcp.RegEx(regex, input));
 			*/
 
+			/*
 			DailyCodingProblem10102018 dcp = new DailyCodingProblem10102018(Int32.Parse(args[0]));
 			dcp.DeleteK(Int32.Parse(args[1]));
+			*/
 		}
 	}
 }
