@@ -10,8 +10,13 @@ namespace DailyCodingProblem
 	{
 		static void Main(string[] args)
 		{
+			DailyCodingProblem10132018 dcp = new DailyCodingProblem10132018();
+			Console.WriteLine(dcp.RunLengthEncode(args[0]));
+
+			/*
 			DailyCodingProblem10112018 dcp = new DailyCodingProblem10112018();
 			Console.WriteLine(dcp.BracketsBalanced(args[0]));
+			*/
 
 			/*
 			DailyCodingProblem10082018 dcp = new DailyCodingProblem10082018();
