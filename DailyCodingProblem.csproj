@@ -59,6 +59,9 @@
     <Compile Include="DailyCodingProblem10102018.cs" />
     <Compile Include="DailyCodingProblem10112018.cs" />
     <Compile Include="DailyCodingProblem10132018.cs" />
+    <Compile Include="DailyCodingProblem10192018.cs" />
+    <Compile Include="DailyCodingProblem10202018.cs" />
+    <Compile Include="DailyCodingProblem10212018.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="XTree.cs" />
