@@ -1,0 +1,15 @@
+Number of solutions for N=1: 1
+Number of solutions for N=2: 0
+Number of solutions for N=3: 0
+Number of solutions for N=4: 2
+Number of solutions for N=5: 10
+Number of solutions for N=6: 4
+Number of solutions for N=7: 40
+Number of solutions for N=8: 92
+Number of solutions for N=9: 352
+Number of solutions for N=10: 724
+Number of solutions for N=11: 2680
+Number of solutions for N=12: 14200
+Number of solutions for N=13: 73712
+Number of solutions for N=14: 365596
+Number of solutions for N=15: 2279184

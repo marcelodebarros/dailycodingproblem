@@ -10,8 +10,17 @@ namespace DailyCodingProblem
 	{
 		static void Main(string[] args)
 		{
+			DailyCodingProblem10222018 dcp = new DailyCodingProblem10222018();
+			int max = Int32.Parse(args[0]);
+			for (int i = 1; i <= max; i++)
+			{
+				dcp.QueensOnChessBoard(i);
+			}
+
+			/*
 			DailyCodingProblem10212018 dcp = new DailyCodingProblem10212018();
 			dcp.PrintSubsets(args[0]);
+			*/
 
 			/*
 			DailyCodingProblem10202018 dcp = new DailyCodingProblem10202018();
