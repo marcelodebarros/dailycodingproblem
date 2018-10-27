@@ -10,12 +10,44 @@ namespace DailyCodingProblem
 	{
 		static void Main(string[] args)
 		{
+			DailyCodingProblem10262018 dcp = new DailyCodingProblem10262018();
+
+			int[] input = new int[args.Length - 1];
+			for (int i = 0; i < args.Length - 1; i++)
+			{
+				input[i] = Int32.Parse(args[i]);
+			}
+			int target = Int32.Parse(args[args.Length - 1]);
+
+			int[] retVal = dcp.FindSubsetAddsToTarget(input, target);
+			if (retVal != null)
+			{
+				Console.Write("Solution:");
+				for (int i = 0; i < retVal.Length; i++)
+				{
+					Console.Write(" {0}", retVal[i]);
+				}
+				Console.WriteLine();
+			}
+			else
+			{
+				Console.WriteLine("No Solution");
+			}
+
+			/*
+			int[] numbers = { 3, 3, 3, 4, 4, 4, 6 };
+			DailyCodingProblem10242018 dcp = new DailyCodingProblem10242018();
+			Console.WriteLine(dcp.FindUnique(numbers));
+			*/
+
+			/*
 			DailyCodingProblem10222018 dcp = new DailyCodingProblem10222018();
 			int max = Int32.Parse(args[0]);
 			for (int i = 1; i <= max; i++)
 			{
 				dcp.QueensOnChessBoard(i);
 			}
+			*/
 
 			/*
 			DailyCodingProblem10212018 dcp = new DailyCodingProblem10212018();
