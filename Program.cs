@@ -10,6 +10,10 @@ namespace DailyCodingProblem
 	{
 		static void Main(string[] args)
 		{
+			DailyCodingProblem10292018 dcp = new DailyCodingProblem10292018();
+			dcp.RndMGivenN(Int32.Parse(args[0]), Int32.Parse(args[1]));
+
+			/*
 			DailyCodingProblem10262018 dcp = new DailyCodingProblem10262018();
 
 			int[] input = new int[args.Length - 1];
@@ -33,6 +37,7 @@ namespace DailyCodingProblem
 			{
 				Console.WriteLine("No Solution");
 			}
+			*/
 
 			/*
 			int[] numbers = { 3, 3, 3, 4, 4, 4, 6 };
