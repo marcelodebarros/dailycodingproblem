@@ -10,8 +10,19 @@ namespace DailyCodingProblem
 	{
 		static void Main(string[] args)
 		{
+			DailyCodingProblem10312018 dcp = new DailyCodingProblem10312018();
+
+			int[] input = new int[args.Length];
+			for (int i = 0; i < args.Length; i++)
+			{
+				input[i] = Int32.Parse(args[i]);
+			}
+			Console.WriteLine(dcp.MaxProfit(input));
+
+			/*
 			DailyCodingProblem10302018 dcp = new DailyCodingProblem10302018();
 			Console.WriteLine(dcp.LongestPalindrome(args[0]));
+			*/
 
 			/*
 			DailyCodingProblem10292018 dcp = new DailyCodingProblem10292018();
