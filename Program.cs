@@ -10,6 +10,36 @@ namespace DailyCodingProblem
 	{
 		static void Main(string[] args)
 		{
+			TreeChar expression = new TreeChar('*');
+			expression.left = new TreeChar('+');
+			expression.right = new TreeChar('+');
+			expression.left.left = new TreeChar('3');
+			expression.left.right = new TreeChar('2');
+			expression.right.left = new TreeChar('4');
+			expression.right.right = new TreeChar('5');
+
+			DailyCodingProblem11032018 dcp = new DailyCodingProblem11032018();
+			Console.WriteLine(dcp.EvaluateTreeExpression(expression));
+
+			/*
+			DailyCodingProblem11022018 dcp = new DailyCodingProblem11022018();
+
+			int[] input = new int[args.Length];
+			for (int i = 0; i < args.Length; i++)
+			{
+				input[i] = Int32.Parse(args[i]);
+			}
+
+			Console.WriteLine(dcp.MaximunSum(input));
+			*/
+
+			/*
+			DailyCodingProblem11012018 dcp = new DailyCodingProblem11012018();
+			TreeChar tree = dcp.BuildTree("abdecfg", "dbeafcg");
+			Console.WriteLine();
+			*/
+
+			/*
 			DailyCodingProblem10312018 dcp = new DailyCodingProblem10312018();
 
 			int[] input = new int[args.Length];
@@ -18,6 +48,7 @@ namespace DailyCodingProblem
 				input[i] = Int32.Parse(args[i]);
 			}
 			Console.WriteLine(dcp.MaxProfit(input));
+			*/
 
 			/*
 			DailyCodingProblem10302018 dcp = new DailyCodingProblem10302018();
