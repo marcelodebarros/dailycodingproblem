@@ -10,6 +10,37 @@ namespace DailyCodingProblem
 	{
 		static void Main(string[] args)
 		{
+			DailyCodingProblem11052018 dcp = new DailyCodingProblem11052018(5);
+
+			for (; ; )
+			{
+				Random rd = new Random();
+
+				string key = "";
+				if (rd.Next(0, 10) == 7)
+				{
+					key = rd.Next(0, 10).ToString();
+					string value = dcp.Get(key);
+					if (String.IsNullOrEmpty(value))
+					{
+						Console.WriteLine("GetKey({0}) = null", key);
+					}
+					else
+					{
+						Console.WriteLine("GetKey({0}) = {1}", key, value);
+					}
+				}
+				else
+				{
+					key = rd.Next(0, 10).ToString();
+					string value = rd.Next(11, 100).ToString();
+					dcp.Set(key, value);
+				}
+
+				Console.ReadLine();
+			}
+
+			/*
 			TreeChar expression = new TreeChar('*');
 			expression.left = new TreeChar('+');
 			expression.right = new TreeChar('+');
@@ -20,6 +51,7 @@ namespace DailyCodingProblem
 
 			DailyCodingProblem11032018 dcp = new DailyCodingProblem11032018();
 			Console.WriteLine(dcp.EvaluateTreeExpression(expression));
+			*/
 
 			/*
 			DailyCodingProblem11022018 dcp = new DailyCodingProblem11022018();
