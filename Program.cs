@@ -10,6 +10,20 @@ namespace DailyCodingProblem
 	{
 		static void Main(string[] args)
 		{
+			DailyCodingProblem11062018 dcp = new DailyCodingProblem11062018();
+			for (int i = 0; i < 100; i++)
+			{
+				Console.WriteLine("Enqueue: {0}", i);
+				dcp.Enqueue(i.ToString());
+
+				if ((new Random()).Next(0, 10) == 7)
+				{
+					Console.WriteLine("Dequeue: {0}", dcp.Dequeue());
+				}
+				Console.ReadLine();
+			}
+
+			/*
 			DailyCodingProblem11052018 dcp = new DailyCodingProblem11052018(5);
 
 			for (; ; )
@@ -39,6 +53,7 @@ namespace DailyCodingProblem
 
 				Console.ReadLine();
 			}
+			*/
 
 			/*
 			TreeChar expression = new TreeChar('*');
