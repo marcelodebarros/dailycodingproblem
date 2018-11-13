@@ -10,6 +10,32 @@ namespace DailyCodingProblem
 	{
 		static void Main(string[] args)
 		{
+			DailyCodingProblem11112018 dcp = new DailyCodingProblem11112018();
+			int[] input = new int[args.Length];
+			for (int i = 0; i < args.Length; i++)
+			{
+				input[i] = Int32.Parse(args[i]);
+			}
+			Console.WriteLine(dcp.PartitionTwoSubsets(input));
+
+			/*
+			DailyCodingProblem11082018 dcp = new DailyCodingProblem11082018();
+			dcp.GenerateTokens(args[0]);
+			Random rd = new Random();
+			for (int i = 0; i < 1000; i++)
+			{
+				string token = rd.Next(0, 1000).ToString();
+				Console.WriteLine("Long {0} => Short {1}", token, dcp.ShortenURL(token));
+
+				if (rd.Next(0, 10) == 7)
+				{
+					Console.WriteLine("Short {0} => Long {1}", dcp.ShortenURL(token), dcp.RestoreURL(dcp.ShortenURL(token)));
+				}
+				Console.ReadLine();
+			}
+			*/
+
+			/*
 			DailyCodingProblem11062018 dcp = new DailyCodingProblem11062018();
 			for (int i = 0; i < 100; i++)
 			{
@@ -22,6 +48,7 @@ namespace DailyCodingProblem
 				}
 				Console.ReadLine();
 			}
+			*/
 
 			/*
 			DailyCodingProblem11052018 dcp = new DailyCodingProblem11052018(5);
