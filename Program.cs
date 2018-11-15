@@ -10,6 +10,12 @@ namespace DailyCodingProblem
 	{
 		static void Main(string[] args)
 		{
+			DailyCodingProblem11142018 dcp = new DailyCodingProblem11142018();
+			long x = Int64.Parse(args[0]);
+			long y = Int64.Parse(args[1]);
+			Console.WriteLine(dcp.Exponentiation(x, y));
+
+			/*
 			DailyCodingProblem11112018 dcp = new DailyCodingProblem11112018();
 			int[] input = new int[args.Length];
 			for (int i = 0; i < args.Length; i++)
@@ -17,6 +23,7 @@ namespace DailyCodingProblem
 				input[i] = Int32.Parse(args[i]);
 			}
 			Console.WriteLine(dcp.PartitionTwoSubsets(input));
+			*/
 
 			/*
 			DailyCodingProblem11082018 dcp = new DailyCodingProblem11082018();
