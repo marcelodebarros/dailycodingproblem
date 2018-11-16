@@ -10,10 +10,15 @@ namespace DailyCodingProblem
 	{
 		static void Main(string[] args)
 		{
+			DailyCodingProblem11152018 dcp = new DailyCodingProblem11152018();
+			Console.WriteLine(dcp.NumberWaysDown(Int32.Parse(args[0]), Int32.Parse(args[1])));
+
+			/*
 			DailyCodingProblem11142018 dcp = new DailyCodingProblem11142018();
 			long x = Int64.Parse(args[0]);
 			long y = Int64.Parse(args[1]);
 			Console.WriteLine(dcp.Exponentiation(x, y));
+			*/
 
 			/*
 			DailyCodingProblem11112018 dcp = new DailyCodingProblem11112018();
