@@ -10,8 +10,35 @@ namespace DailyCodingProblem
 	{
 		static void Main(string[] args)
 		{
+			DailyCodingProblem11222018 dcp = new DailyCodingProblem11222018();
+
+			int[] input = new int[args.Length];
+			for (int i = 0; i < args.Length; i++)
+			{
+				input[i] = Int32.Parse(args[i]);
+			}
+
+			Console.WriteLine(dcp.Max3(input));
+
+			/*
+			DailyCodingProblem11182018 dcp = new DailyCodingProblem11182018();
+
+			int n = 3;
+			int m = 5;
+			int[,] matrix = new int[n, m];
+
+			int index = 0;
+			for (int r = 0; r < n; r++)
+				for (int c = 0; c < m; c++)
+					matrix[r, c] = ++index;
+
+			dcp.PrintSpiral(matrix, n, m);
+			*/
+
+			/*
 			DailyCodingProblem11152018 dcp = new DailyCodingProblem11152018();
 			Console.WriteLine(dcp.NumberWaysDown(Int32.Parse(args[0]), Int32.Parse(args[1])));
+			*/
 
 			/*
 			DailyCodingProblem11142018 dcp = new DailyCodingProblem11142018();
