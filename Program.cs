@@ -10,6 +10,10 @@ namespace DailyCodingProblem
 	{
 		static void Main(string[] args)
 		{
+			DailyCodingProblem12092018 dcp = new DailyCodingProblem12092018();
+			Console.WriteLine(dcp.BracketsMistakes(args[0]));
+
+			/*
 			Tree tree = new Tree(10);
 			tree.left = new Tree(5);
 			tree.right = new Tree(15);
@@ -19,6 +23,7 @@ namespace DailyCodingProblem
 
 			DailyCodingProblem12032018 dcp = new DailyCodingProblem12032018();
 			Console.WriteLine(dcp.DeepestNodeValue(tree));
+			*/
 
 			/*
 			DailyCodingProblem11222018 dcp = new DailyCodingProblem11222018();
