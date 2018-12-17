@@ -10,8 +10,14 @@ namespace DailyCodingProblem
 	{
 		static void Main(string[] args)
 		{
+			DailyCodingProblem12162018 dcp = new DailyCodingProblem12162018();
+			Tree tree = dcp.BuildTree();
+			Console.WriteLine(dcp.LargestBST(tree));
+
+			/*
 			DailyCodingProblem12092018 dcp = new DailyCodingProblem12092018();
 			Console.WriteLine(dcp.BracketsMistakes(args[0]));
+			*/
 
 			/*
 			Tree tree = new Tree(10);
