@@ -10,9 +10,15 @@ namespace DailyCodingProblem
 	{
 		static void Main(string[] args)
 		{
+			DailyCodingProblem12222018 dcp = new DailyCodingProblem12222018();
+			int[] numbers = { 4, 1, 3, 2, 7, 8, 9, 10, 0, 6, 100, 2000, 6, 5, 13, 14, -1 };
+			Console.WriteLine(dcp.LongestConsecutiveElementSequence(numbers));
+
+			/*
 			DailyCodingProblem12162018 dcp = new DailyCodingProblem12162018();
 			Tree tree = dcp.BuildTree();
 			Console.WriteLine(dcp.LargestBST(tree));
+			*/
 
 			/*
 			DailyCodingProblem12092018 dcp = new DailyCodingProblem12092018();
