@@ -11,7 +11,7 @@ namespace DailyCodingProblem
 		static void Main(string[] args)
 		{
 			DailyCodingProblem12222018 dcp = new DailyCodingProblem12222018();
-			int[] numbers = { 4, 1, 3, 2, 7, 8, 9, 10, 0, 6, 100, 2000, 6, 5, 13, 14, -1 };
+			int[] numbers = { 4, 1, 3, 2, 7, 8, 9, 6, 100, 2000, 6, 5, 13, 14, -1, 12, 13, 14, 15, 16, 17, 18, 19 };
 			Console.WriteLine(dcp.LongestConsecutiveElementSequence(numbers));
 
 			/*
