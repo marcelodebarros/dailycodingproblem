@@ -83,6 +83,7 @@
     <Compile Include="DailyCodingProblem12092018.cs" />
     <Compile Include="DailyCodingProblem12162018.cs" />
     <Compile Include="DailyCodingProblem12222018.cs" />
+    <Compile Include="DailyCodingProblem12242018.cs" />
     <Compile Include="FunCodingProblem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

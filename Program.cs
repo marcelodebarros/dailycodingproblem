@@ -10,9 +10,14 @@ namespace DailyCodingProblem
 	{
 		static void Main(string[] args)
 		{
+			DailyCodingProblem12242018 dcp = new DailyCodingProblem12242018();
+			dcp.MinGoldbachNumbers(Int64.Parse(args[0]));
+
+			/*
 			DailyCodingProblem12222018 dcp = new DailyCodingProblem12222018();
 			int[] numbers = { 100, 4, 200, 1, 3, 2 };
 			Console.WriteLine(dcp.LongestConsecutiveElementSequence(numbers));
+			*/
 
 			/*
 			DailyCodingProblem12162018 dcp = new DailyCodingProblem12162018();
