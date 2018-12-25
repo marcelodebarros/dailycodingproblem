@@ -21,7 +21,7 @@ namespace DailyCodingProblem
 			bool[] composed = new bool[n + 1];
 			composed[0] = composed[1] = true;
 			for (long i = 2; i < Math.Sqrt(n); i++)
-				for (long j = 2; i * j <= n; j++)
+				for (long j = i; i * j <= n; j++)
 					composed[i * j] = true;
 			Console.WriteLine("Done!");
 

@@ -10,8 +10,19 @@ namespace DailyCodingProblem
 	{
 		static void Main(string[] args)
 		{
+			DailyCodingProblem12252018 dcp = new DailyCodingProblem12252018();
+			int[] input = new int[args.Length];
+			for (int i = 0; i < args.Length - 1; i++)
+			{
+				input[i] = Int32.Parse(args[i]);
+			}
+			int k = Int32.Parse(args[args.Length - 1]);
+			dcp.ContiguousElementsSum(input, k);
+
+			/*
 			DailyCodingProblem12242018 dcp = new DailyCodingProblem12242018();
 			dcp.MinGoldbachNumbers(Int64.Parse(args[0]));
+			*/
 
 			/*
 			DailyCodingProblem12222018 dcp = new DailyCodingProblem12222018();
