@@ -31,16 +31,14 @@ namespace DailyCodingProblem
 
 				if (si2.node.left != null)
 				{
-					List<int> leftPath = new List<int>();
-					leftPath = si2.path.ToList<int>();
+					List<int> leftPath = si2.path.ToList<int>();
 					leftPath.Add(si2.node.val);
 					StackItem2 lsi2 = new StackItem2(si2.node.left, leftPath);
 					stack.Push(lsi2);
 				}
 				if (si2.node.right != null)
 				{
-					List<int> rightPath = new List<int>();
-					rightPath = si2.path.ToList<int>();
+					List<int> rightPath = si2.path.ToList<int>();
 					rightPath.Add(si2.node.val);
 					StackItem2 rsi2 = new StackItem2(si2.node.right, rightPath);
 					stack.Push(rsi2);
