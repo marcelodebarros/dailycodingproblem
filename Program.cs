@@ -10,6 +10,30 @@ namespace DailyCodingProblem
 	{
 		static void Main(string[] args)
 		{
+			Tree tree = new Tree(1);
+			tree.left = new Tree(2);
+			tree.right = new Tree(3);
+			tree.right.left = new Tree(4);
+			tree.right.right = new Tree(5);
+
+			DailyCodingProblem01022019 dcp = new DailyCodingProblem01022019();
+			IList<List<int>> paths = dcp.AllPaths(tree);
+
+			foreach (List<int> path in paths)
+			{
+				foreach (int n in path)
+				{
+					Console.Write("{0} ", n);
+				}
+				Console.WriteLine();
+			}
+
+			/*
+			DailyCodingProblem12262018 dcp = new DailyCodingProblem12262018();
+			Console.WriteLine(dcp.MinCoveringSubstring(args[0], args[1]));
+			*/
+
+			/*
 			DailyCodingProblem12252018 dcp = new DailyCodingProblem12252018();
 			int[] input = new int[args.Length];
 			for (int i = 0; i < args.Length - 1; i++)
@@ -18,6 +42,7 @@ namespace DailyCodingProblem
 			}
 			int k = Int32.Parse(args[args.Length - 1]);
 			dcp.ContiguousElementsSum(input, k);
+			*/
 
 			/*
 			DailyCodingProblem12242018 dcp = new DailyCodingProblem12242018();

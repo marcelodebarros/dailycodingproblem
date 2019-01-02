@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DailyCodingProblem01022019.cs" />
     <Compile Include="DailyCodingProblem10152018.cs" />
     <Compile Include="DailyCodingProblem09222018.cs" />
     <Compile Include="DailyCodingProblem09232018.cs" />
@@ -85,6 +86,7 @@
     <Compile Include="DailyCodingProblem12222018.cs" />
     <Compile Include="DailyCodingProblem12242018.cs" />
     <Compile Include="DailyCodingProblem12252018.cs" />
+    <Compile Include="DailyCodingProblem12262018.cs" />
     <Compile Include="FunCodingProblem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
