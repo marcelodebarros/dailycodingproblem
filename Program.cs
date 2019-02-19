@@ -10,13 +10,19 @@ namespace DailyCodingProblem
 	{
 		static void Main(string[] args)
 		{
+			DailyCodingProblem02172019 dcp = new DailyCodingProblem02172019();
+			dcp.MinimumPowerSum(Int32.Parse(args[0]), Int32.Parse(args[1]), true);
+
+			/*
 			DailyCodingProblem01142019 dcp = new DailyCodingProblem01142019();
+
 			int[,] matrix = { 
 								{0, 3, 1, 1 },
 								{2, 0, 0, 4 },
 								{1, 5, 3, 1 }
 							};
 			Console.WriteLine(dcp.MaxNumberCoins(matrix));
+			*/
 
 			/*
 			Tree tree = new Tree(1);
