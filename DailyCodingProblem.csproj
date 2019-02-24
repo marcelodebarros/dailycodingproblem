@@ -45,6 +45,7 @@
     <Compile Include="DailyCodingProblem01022019.cs" />
     <Compile Include="DailyCodingProblem01142019.cs" />
     <Compile Include="DailyCodingProblem02172019.cs" />
+    <Compile Include="DailyCodingProblem02232019.cs" />
     <Compile Include="DailyCodingProblem10152018.cs" />
     <Compile Include="DailyCodingProblem09222018.cs" />
     <Compile Include="DailyCodingProblem09232018.cs" />
