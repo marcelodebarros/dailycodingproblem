@@ -10,8 +10,13 @@ namespace DailyCodingProblem
 	{
 		static void Main(string[] args)
 		{
+            DailyCodingProbem05042019 dcp = new DailyCodingProbem05042019();
+            dcp.Process();
+
+            /*
 			DailyCodingProblem02232019 dcp = new DailyCodingProblem02232019();
 			dcp.MinUniquePrefix();
+            */
 
 			/*
 			DailyCodingProblem02172019 dcp = new DailyCodingProblem02172019();

@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DailyCodingProbem05042019.cs" />
     <Compile Include="DailyCodingProblem01022019.cs" />
     <Compile Include="DailyCodingProblem01142019.cs" />
     <Compile Include="DailyCodingProblem02172019.cs" />
